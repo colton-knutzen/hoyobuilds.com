@@ -114,7 +114,19 @@ body {
     font-family: 'Audiowide', cursive;
    }
   
-   
+//LORE FACTOID
+.lore_factoid {
+    width: 92%;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: .85em;
+    padding: 0 5px;
+
+    .lore_factoid_indent {
+        margin-left: 20px;
+    }
+}
+
 //INSIDE ARTICLE FORMATING
     .press-h4 {
         margin-top: 0px;
@@ -128,6 +140,11 @@ body {
         margin-top: 0px;
         padding-top: 3px;
     }
+
+.energy_gain {
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
 
 //HEADER
     header {

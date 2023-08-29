@@ -107,6 +107,17 @@ h5 {
   font-family: "Audiowide", cursive;
 }
 
+.lore_factoid {
+  width: 92%;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 0.85em;
+  padding: 0 5px;
+}
+.lore_factoid .lore_factoid_indent {
+  margin-left: 20px;
+}
+
 .press-h4 {
   margin-top: 0px;
 }
@@ -118,6 +129,11 @@ h5 {
 .first-h4 {
   margin-top: 0px;
   padding-top: 3px;
+}
+
+.energy_gain {
+  padding-top: 5px;
+  margin-bottom: 0px;
 }
 
 header {
