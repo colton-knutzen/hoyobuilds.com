@@ -182,7 +182,7 @@ header .side-nav-hamburger, header .social-menu {
   background-color: #777678;
 }
 .pros-cons .pros {
-  color: #48bf84;
+  color: #003b19;
 }
 .pros-cons .cons {
   color: #650d1b;
@@ -797,6 +797,35 @@ main {
   Filter: drop-shadow(1px 1px 1px rgba(119, 118, 120, 0.6117647059));
 }
 
+.team_table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  line-height: normal;
+}
+.team_table th, .team_table td {
+  border: 1px solid black;
+  text-align: left;
+  text-align: center;
+}
+.team_table th {
+  padding: 3px 8px;
+}
+.team_table td {
+  background-color: white;
+}
+.team_table .team_icons td {
+  padding: 0px;
+}
+.team_table .team_icons td img {
+  padding-top: 2px;
+  height: auto;
+  max-height: 70px;
+  width: auto;
+  padding-right: 0px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
 .parallelogram-title {
   width: 100%;
   text-align: center;
@@ -840,7 +869,7 @@ main {
   margin-left: 5px;
 }
 .article .article-weapon {
-  height: 300px;
+  height: 250px;
   float: right;
   margin-left: 5px;
 }
@@ -1258,6 +1287,15 @@ footer .footer-return :hover {
     margin-bottom: 10px;
   }
 }
+.character_icon {
+  padding: 0px !important;
+  margin: 0px;
+}
+.character_icon img {
+  display: block;
+  max-width: auto;
+}
+
 @media only screen and (max-width: 480px) {
   .background-splash img {
     padding-top: 1750px;

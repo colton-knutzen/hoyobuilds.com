@@ -29,6 +29,9 @@ const srArray = [
   { name: "blade", path: "destruction", element: "wind", rarity: "5", model: "adult_male", faction: "stellaron_hunters", release: "1.2"},
   { name: "kafka", path: "nihility", element: "lightning", rarity: "5", model: "adult_female", faction: "stellaron_hunters", release: "1.2"},
   { name: "luka", path: "nihility", element: "physical", rarity: "4", model: "tall_male", faction: "jarilo_VI", release: "1.2"},
+  { name: "lynx", path: "abundance", element: "quantum", rarity: "4", model: "short_female", faction: "jarilo_VI", release: "1.3"},
+  { name: "dan_heng_~_imbibitor_lunae", path: "destruction", element: "imaginary", rarity: "5", model: "tall_male", faction: "nameless", release: "1.3"},
+  { name: "fu_xuan", path: "preservation", element: "quantum", rarity: "5", model: "short_female", faction: "xianzhou", release: "1.3"},
 ];
 
 //Give gray background to cells = 0

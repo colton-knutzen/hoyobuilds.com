@@ -200,10 +200,10 @@ body {
         background-color: #777678;
       }
       .pros {
-        color: #48bf84;
+        color: #003b19;
       }
       .cons {
-        color: #650d1b ;
+        color: #650d1b;
       }
       h5 {
         margin-top: 0;
@@ -946,6 +946,44 @@ body {
     Filter: drop-shadow(1px 1px 1px #7776789c);
 }
 
+    //Team Table
+    .team_table{
+            border-collapse: collapse;
+            margin: 20px auto;
+            line-height: normal;
+        
+        th, td {
+            border: 1px solid black;
+            text-align: left;
+            text-align: center;
+        }
+
+        th {
+            padding: 3px 8px;
+        }
+    
+        td {
+            background-color: white;
+        }
+
+        .team_icons {
+            td {
+                padding: 0px;
+            }
+            td {
+                img {
+                    padding-top: 2px;
+                    height: auto;
+                    max-height: 70px;
+                    width: auto;
+                    padding-right: 0px;
+                    display: inline-block;
+                    vertical-align: bottom;
+                 }
+            }
+        }
+    }
+    
 
     .parallelogram-title {
         width: 100%;
@@ -998,7 +1036,7 @@ body {
         }
 
         .article-weapon {
-            height: 300px;
+            height: 250px;
             float: right;
             margin-left: 5px
         }
@@ -1527,6 +1565,16 @@ body {
       margin-bottom: 10px;
     }
   }
+
+//Character Icons
+.character_icon {
+    padding: 0px !important;
+    margin: 0px;
+    img {
+        display: block;
+        max-width: auto;
+    }
+}
 
 //Footer Smaller
 @media only screen and (max-width:480px) {

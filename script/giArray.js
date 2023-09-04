@@ -1,73 +1,73 @@
 const giArray = [
-  { name: "jean", element: "anemo", weapon: "sword", rarity: "5", model: "adult_female", nation: "mondstadt", release: "1.0" },
-  { name: "venti", element: "anemo", weapon: "bow", rarity: "5", model: "teen_male", nation: "mondstadt", release: "1.0" },
-  { name: "qiqi", element: "cryo", weapon: "sword", rarity: "5", model: "child_female", nation: "liyue", release: "1.0" },
-  { name: "keqing", element: "electro", weapon: "sword", rarity: "5", model: "teen_female", nation: "liyue", release: "1.0" },
-  { name: "mona", element: "hydro", weapon: "catalyst", rarity: "5", model: "teen_female", nation: "mondstadt", release: "1.0" },
-  { name: "diluc", element: "pyro", weapon: "claymore", rarity: "5", model: "adult_male", nation: "mondstadt", release: "1.0" },
-  { name: "klee", element: "pyro", weapon: "catalyst", rarity: "5", model: "child_female", nation: "mondstadt", release: "1.0" },
-  { name: "sucrose", element: "anemo", weapon: "catalyst", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
-  { name: "chongyun", element: "cryo", weapon: "claymore", rarity: "4", model: "teen_male", nation: "liyue", release: "1.0" },
-  { name: "kaeya", element: "cryo", weapon: "sword", rarity: "4", model: "adult_male", nation: "mondstadt", release: "1.0" },
-  { name: "beidou", element: "electro", weapon: "claymore", rarity: "4", model: "adult_female", nation: "liyue", release: "1.0" },
-  { name: "fischl", element: "electro", weapon: "bow", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
-  { name: "lisa", element: "electro", weapon: "catalyst", rarity: "4", model: "adult_female", nation: "mondstadt", release: "1.0" },
-  { name: "razor", element: "electro", weapon: "claymore", rarity: "4", model: "teen_male", nation: "mondstadt", release: "1.0" },
-  { name: "ningguang", element: "geo", weapon: "catalyst", rarity: "4", model: "adult_female", nation: "liyue", release: "1.0" },
-  { name: "noelle", element: "geo", weapon: "claymore", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
-  { name: "barbara", element: "hydro", weapon: "catalyst", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
-  { name: "xingqiu", element: "hydro", weapon: "sword", rarity: "4", model: "teen_male", nation: "liyue", release: "1.0" },
-  { name: "amber", element: "pyro", weapon: "bow", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
-  { name: "bennett", element: "pyro", weapon: "sword", rarity: "4", model: "teen_male", nation: "mondstadt", release: "1.0" },
-  { name: "xiangling", element: "pyro", weapon: "polearm", rarity: "4", model: "teen_female", nation: "liyue", release: "1.0" },
-  { name: "zhongli", element: "geo", weapon: "polearm", rarity: "5", model: "adult_male", nation: "liyue", release: "1.1" },
-  { name: "childe", element: "hydro", weapon: "bow", rarity: "5", model: "adult_male", nation: "snezhnaya", release: "1.1" },
-  { name: "diona", element: "cryo", weapon: "bow", rarity: "4", model: "child_female", nation: "mondstadt", release: "1.1" },
-  { name: "xinyan", element: "pyro", weapon: "claymore", rarity: "4", model: "teen_female", nation: "liyue", release: "1.1" },
-  { name: "ganyu", element: "cryo", weapon: "bow", rarity: "5", model: "teen_female", nation: "liyue", release: "1.2" },
-  { name: "albedo", element: "geo", weapon: "sword", rarity: "5", model: "teen_male", nation: "mondstadt", release: "1.2" },
-  { name: "xiao", element: "anemo", weapon: "polearm", rarity: "5", model: "teen_male", nation: "liyue", release: "1.3" },
-  { name: "hutao", element: "pyro", weapon: "polearm", rarity: "5", model: "teen_female", nation: "liyue", release: "1.3" },
-  { name: "rosaria", element: "cryo", weapon: "polearm", rarity: "4", model: "adult_female", nation: "mondstadt", release: "1.4" },
-  { name: "eula", element: "cryo", weapon: "claymore", rarity: "5", model: "adult_female", nation: "mondstadt", release: "1.5" },
-  { name: "yanfei", element: "pyro", weapon: "catalyst", rarity: "4", model: "teen_female", nation: "liyue", release: "1.5" },
-  { name: "kazuha", element: "anemo", weapon: "sword", rarity: "5", model: "teen_male", nation: "inazuma", release: "1.6" },
-  { name: "ayaka", element: "cryo", weapon: "sword", rarity: "5", model: "teen_female", nation: "inazuma", release: "2.0" },
-  { name: "yoimiya", element: "pyro", weapon: "bow", rarity: "5", model: "teen_female", nation: "inazuma", release: "2.0" },
-  { name: "sayu", element: "anemo", weapon: "claymore", rarity: "4", model: "child_female", nation: "inazuma", release: "2.0" },
-  { name: "raiden", element: "electro", weapon: "polearm", rarity: "5", model: "adult_female", nation: "inazuma", release: "2.1" },
-  { name: "kokomi", element: "hydro", weapon: "catalyst", rarity: "5", model: "teen_female", nation: "inazuma", release: "2.1" },
-  { name: "sara", element: "electro", weapon: "bow", rarity: "4", model: "adult_female", nation: "inazuma", release: "2.1" },
-  { name: "thoma", element: "pyro", weapon: "polearm", rarity: "4", model: "adult_male", nation: "inazuma", release: "2.2" },
-  { name: "itto", element: "geo", weapon: "claymore", rarity: "5", model: "adult_male", nation: "inazuma", release: "2.3" },
-  { name: "gorou", element: "geo", weapon: "bow", rarity: "4", model: "teen_male", nation: "inazuma", release: "2.3" },
-  { name: "shenhe", element: "cryo", weapon: "polearm", rarity: "5", model: "adult_female", nation: "liyue", release: "2.4" },
-  { name: "yunjin", element: "geo", weapon: "polearm", rarity: "4", model: "teen_female", nation: "liyue", release: "2.4" },
-  { name: "yae_miko", element: "electro", weapon: "catalyst", rarity: "5", model: "adult_female", nation: "inazuma", release: "2.5" },
-  { name: "ayato", element: "hydro", weapon: "sword", rarity: "5", model: "adult_male", nation: "inazuma", release: "2.6" },
-  { name: "yelan", element: "hydro", weapon: "bow", rarity: "5", model: "adult_female", nation: "liyue", release: "2.7" },
-  { name: "kuki", element: "electro", weapon: "sword", rarity: "4", model: "teen_female", nation: "inazuma", release: "2.7" },
-  { name: "heizou", element: "anemo", weapon: "catalyst", rarity: "4", model: "teen_male", nation: "inazuma", release: "2.8" },
-  { name: "tighnari", element: "dendro", weapon: "bow", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.0" },
-  { name: "dori", element: "electro", weapon: "claymore", rarity: "4", model: "child_female", nation: "sumeru", release: "3.0" },
-  { name: "collei", element: "dendro", weapon: "bow", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.0" },
-  { name: "nilou", element: "hydro", weapon: "sword", rarity: "5", model: "teen_female", nation: "sumeru", release: "3.1" },
-  { name: "cyno", element: "electro", weapon: "polearm", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.1" },
-  { name: "cadace", element: "hydro", weapon: "polearm", rarity: "4", model: "adult_female", nation: "sumeru", release: "3.1" },
-  { name: "nahida", element: "dendro", weapon: "catalyst", rarity: "5", model: "child_female", nation: "sumeru", release: "3.2" },
-  { name: "layla", element: "cryo", weapon: "sword", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.2" },
-  { name: "wanderer", element: "anemo", weapon: "catalyst", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.3" },
-  { name: "faruzan", element: "anemo", weapon: "bow", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.3" },
-  { name: "alhaitham", element: "dendro", weapon: "sword", rarity: "5", model: "adult_male", nation: "sumeru", release: "3.4" },
-  { name: "yaoyao", element: "dendro", weapon: "polearm", rarity: "4", model: "child_female", nation: "liyue", release: "3.4" },
-  { name: "dehya", element: "pyro", weapon: "claymore", rarity: "5", model: "adult_female", nation: "sumeru", release: "3.5" },
-  { name: "mika", element: "cryo", weapon: "polearm", rarity: "4", model: "teen_male", nation: "mondstadt", release: "3.5" },
-  { name: "baizhu", element: "dendro", weapon: "catalyst", rarity: "5", model: "adult_male", nation: "liyue", release: "3.6" },
-  { name: "kaveh", element: "dendro", weapon: "claymore", rarity: "4", model: "adult_male", nation: "sumeru", release: "3.6" },
-  { name: "kirara", element: "dendro", weapon: "sword", rarity: "4", model: "teen_female", nation: "inazuma", release: "3.7" },
-  { name: "lyney", element: "pyro", weapon: "bow", rarity: "5", model: "teen_male", nation: "fontaine", release: "4.0" },
-  { name: "lynette", element: "anemo", weapon: "sword", rarity: "4", model: "teen_female", nation: "fontaine", release: "4.0" },
-  { name: "freminet", element: "cryo", weapon: "claymore", rarity: "4", model: "teen_male", nation: "fontaine", release: "4.0" },
+  { icon: "/img/gi/char_icon/jean.webp", name: "jean", element: "anemo", weapon: "sword", rarity: "5", model: "adult_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/venti.webp", name: "venti", element: "anemo", weapon: "bow", rarity: "5", model: "teen_male", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/qiqi.webp", name: "qiqi", element: "cryo", weapon: "sword", rarity: "5", model: "child_female", nation: "liyue", release: "1.0" },
+  { icon: "/img/gi/char_icon/keqing.webp", name: "keqing", element: "electro", weapon: "sword", rarity: "5", model: "teen_female", nation: "liyue", release: "1.0" },
+  { icon: "/img/gi/char_icon/mona.webp", name: "mona", element: "hydro", weapon: "catalyst", rarity: "5", model: "teen_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/diluc.webp", name: "diluc", element: "pyro", weapon: "claymore", rarity: "5", model: "adult_male", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/klee.webp", name: "klee", element: "pyro", weapon: "catalyst", rarity: "5", model: "child_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/sucrose.webp", name: "sucrose", element: "anemo", weapon: "catalyst", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/chongyun.webp", name: "chongyun", element: "cryo", weapon: "claymore", rarity: "4", model: "teen_male", nation: "liyue", release: "1.0" },
+  { icon: "/img/gi/char_icon/kaeya.webp", name: "kaeya", element: "cryo", weapon: "sword", rarity: "4", model: "adult_male", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/beidou.webp", name: "beidou", element: "electro", weapon: "claymore", rarity: "4", model: "adult_female", nation: "liyue", release: "1.0" },
+  { icon: "/img/gi/char_icon/fischl.webp", name: "fischl", element: "electro", weapon: "bow", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/lisa.webp", name: "lisa", element: "electro", weapon: "catalyst", rarity: "4", model: "adult_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/razor.webp", name: "razor", element: "electro", weapon: "claymore", rarity: "4", model: "teen_male", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/ningguang.webp", name: "ningguang", element: "geo", weapon: "catalyst", rarity: "4", model: "adult_female", nation: "liyue", release: "1.0" },
+  { icon: "/img/gi/char_icon/noelle.webp", name: "noelle", element: "geo", weapon: "claymore", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/barbara.webp", name: "barbara", element: "hydro", weapon: "catalyst", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/xingqiu.webp", name: "xingqiu", element: "hydro", weapon: "sword", rarity: "4", model: "teen_male", nation: "liyue", release: "1.0" },
+  { icon: "/img/gi/char_icon/amber.webp", name: "amber", element: "pyro", weapon: "bow", rarity: "4", model: "teen_female", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/bennett.webp", name: "bennett", element: "pyro", weapon: "sword", rarity: "4", model: "teen_male", nation: "mondstadt", release: "1.0" },
+  { icon: "/img/gi/char_icon/xiangling.webp", name: "xiangling", element: "pyro", weapon: "polearm", rarity: "4", model: "teen_female", nation: "liyue", release: "1.0" },
+  { icon: "/img/gi/char_icon/zhongli.webp", name: "zhongli", element: "geo", weapon: "polearm", rarity: "5", model: "adult_male", nation: "liyue", release: "1.1" },
+  { icon: "/img/gi/char_icon/childe.webp", name: "childe", element: "hydro", weapon: "bow", rarity: "5", model: "adult_male", nation: "snezhnaya", release: "1.1" },
+  { icon: "/img/gi/char_icon/diona.webp", name: "diona", element: "cryo", weapon: "bow", rarity: "4", model: "child_female", nation: "mondstadt", release: "1.1" },
+  { icon: "/img/gi/char_icon/xinyan.webp", name: "xinyan", element: "pyro", weapon: "claymore", rarity: "4", model: "teen_female", nation: "liyue", release: "1.1" },
+  { icon: "/img/gi/char_icon/ganyu.webp", name: "ganyu", element: "cryo", weapon: "bow", rarity: "5", model: "teen_female", nation: "liyue", release: "1.2" },
+  { icon: "/img/gi/char_icon/albedo.webp", name: "albedo", element: "geo", weapon: "sword", rarity: "5", model: "teen_male", nation: "mondstadt", release: "1.2" },
+  { icon: "/img/gi/char_icon/xiao.webp", name: "xiao", element: "anemo", weapon: "polearm", rarity: "5", model: "teen_male", nation: "liyue", release: "1.3" },
+  { icon: "/img/gi/char_icon/hutao.webp", name: "hutao", element: "pyro", weapon: "polearm", rarity: "5", model: "teen_female", nation: "liyue", release: "1.3" },
+  { icon: "/img/gi/char_icon/rosaria.webp", name: "rosaria", element: "cryo", weapon: "polearm", rarity: "4", model: "adult_female", nation: "mondstadt", release: "1.4" },
+  { icon: "/img/gi/char_icon/eula.webp", name: "eula", element: "cryo", weapon: "claymore", rarity: "5", model: "adult_female", nation: "mondstadt", release: "1.5" },
+  { icon: "/img/gi/char_icon/yanfei.webp", name: "yanfei", element: "pyro", weapon: "catalyst", rarity: "4", model: "teen_female", nation: "liyue", release: "1.5" },
+  { icon: "/img/gi/char_icon/kazuha.webp", name: "kazuha", element: "anemo", weapon: "sword", rarity: "5", model: "teen_male", nation: "inazuma", release: "1.6" },
+  { icon: "/img/gi/char_icon/ayaka.webp", name: "ayaka", element: "cryo", weapon: "sword", rarity: "5", model: "teen_female", nation: "inazuma", release: "2.0" },
+  { icon: "/img/gi/char_icon/yoimiya.webp", name: "yoimiya", element: "pyro", weapon: "bow", rarity: "5", model: "teen_female", nation: "inazuma", release: "2.0" },
+  { icon: "/img/gi/char_icon/sayu.webp", name: "sayu", element: "anemo", weapon: "claymore", rarity: "4", model: "child_female", nation: "inazuma", release: "2.0" },
+  { icon: "/img/gi/char_icon/raiden.webp", name: "raiden", element: "electro", weapon: "polearm", rarity: "5", model: "adult_female", nation: "inazuma", release: "2.1" },
+  { icon: "/img/gi/char_icon/kokomi.webp", name: "kokomi", element: "hydro", weapon: "catalyst", rarity: "5", model: "teen_female", nation: "inazuma", release: "2.1" },
+  { icon: "/img/gi/char_icon/sara.webp", name: "sara", element: "electro", weapon: "bow", rarity: "4", model: "adult_female", nation: "inazuma", release: "2.1" },
+  { icon: "/img/gi/char_icon/thoma.webp", name: "thoma", element: "pyro", weapon: "polearm", rarity: "4", model: "adult_male", nation: "inazuma", release: "2.2" },
+  { icon: "/img/gi/char_icon/itto.webp", name: "itto", element: "geo", weapon: "claymore", rarity: "5", model: "adult_male", nation: "inazuma", release: "2.3" },
+  { icon: "/img/gi/char_icon/gorou.webp", name: "gorou", element: "geo", weapon: "bow", rarity: "4", model: "teen_male", nation: "inazuma", release: "2.3" },
+  { icon: "/img/gi/char_icon/shenhe.webp", name: "shenhe", element: "cryo", weapon: "polearm", rarity: "5", model: "adult_female", nation: "liyue", release: "2.4" },
+  { icon: "/img/gi/char_icon/yunjin.webp", name: "yunjin", element: "geo", weapon: "polearm", rarity: "4", model: "teen_female", nation: "liyue", release: "2.4" },
+  { icon: "/img/gi/char_icon/yae_miko.webp", name: "yae_miko", element: "electro", weapon: "catalyst", rarity: "5", model: "adult_female", nation: "inazuma", release: "2.5" },
+  { icon: "/img/gi/char_icon/ayato.webp", name: "ayato", element: "hydro", weapon: "sword", rarity: "5", model: "adult_male", nation: "inazuma", release: "2.6" },
+  { icon: "/img/gi/char_icon/yelan.webp", name: "yelan", element: "hydro", weapon: "bow", rarity: "5", model: "adult_female", nation: "liyue", release: "2.7" },
+  { icon: "/img/gi/char_icon/kuki.webp", name: "kuki", element: "electro", weapon: "sword", rarity: "4", model: "teen_female", nation: "inazuma", release: "2.7" },
+  { icon: "/img/gi/char_icon/heizou.webp", name: "heizou", element: "anemo", weapon: "catalyst", rarity: "4", model: "teen_male", nation: "inazuma", release: "2.8" },
+  { icon: "/img/gi/char_icon/tighnari.webp", name: "tighnari", element: "dendro", weapon: "bow", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.0" },
+  { icon: "/img/gi/char_icon/dori.webp", name: "dori", element: "electro", weapon: "claymore", rarity: "4", model: "child_female", nation: "sumeru", release: "3.0" },
+  { icon: "/img/gi/char_icon/collei.webp", name: "collei", element: "dendro", weapon: "bow", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.0" },
+  { icon: "/img/gi/char_icon/nilou.webp", name: "nilou", element: "hydro", weapon: "sword", rarity: "5", model: "teen_female", nation: "sumeru", release: "3.1" },
+  { icon: "/img/gi/char_icon/cyno.webp", name: "cyno", element: "electro", weapon: "polearm", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.1" },
+  { icon: "/img/gi/char_icon/cadace.webp", name: "cadace", element: "hydro", weapon: "polearm", rarity: "4", model: "adult_female", nation: "sumeru", release: "3.1" },
+  { icon: "/img/gi/char_icon/nahida.webp", name: "nahida", element: "dendro", weapon: "catalyst", rarity: "5", model: "child_female", nation: "sumeru", release: "3.2" },
+  { icon: "/img/gi/char_icon/layla.webp", name: "layla", element: "cryo", weapon: "sword", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.2" },
+  { icon: "/img/gi/char_icon/wanderer.webp", name: "wanderer", element: "anemo", weapon: "catalyst", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.3" },
+  { icon: "/img/gi/char_icon/faruzan.webp", name: "faruzan", element: "anemo", weapon: "bow", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.3" },
+  { icon: "/img/gi/char_icon/alhaitham.webp", name: "alhaitham", element: "dendro", weapon: "sword", rarity: "5", model: "adult_male", nation: "sumeru", release: "3.4" },
+  { icon: "/img/gi/char_icon/yaoyao.webp", name: "yaoyao", element: "dendro", weapon: "polearm", rarity: "4", model: "child_female", nation: "liyue", release: "3.4" },
+  { icon: "/img/gi/char_icon/dehya.webp", name: "dehya", element: "pyro", weapon: "claymore", rarity: "5", model: "adult_female", nation: "sumeru", release: "3.5" },
+  { icon: "/img/gi/char_icon/mika.webp", name: "mika", element: "cryo", weapon: "polearm", rarity: "4", model: "teen_male", nation: "mondstadt", release: "3.5" },
+  { icon: "/img/gi/char_icon/baizhu.webp", name: "baizhu", element: "dendro", weapon: "catalyst", rarity: "5", model: "adult_male", nation: "liyue", release: "3.6" },
+  { icon: "/img/gi/char_icon/kaveh.webp", name: "kaveh", element: "dendro", weapon: "claymore", rarity: "4", model: "adult_male", nation: "sumeru", release: "3.6" },
+  { icon: "/img/gi/char_icon/kirara.webp", name: "kirara", element: "dendro", weapon: "sword", rarity: "4", model: "teen_female", nation: "inazuma", release: "3.7" },
+  { icon: "/img/gi/char_icon/lyney.webp", name: "lyney", element: "pyro", weapon: "bow", rarity: "5", model: "teen_male", nation: "fontaine", release: "4.0" },
+  { icon: "/img/gi/char_icon/lynette.webp", name: "lynette", element: "anemo", weapon: "sword", rarity: "4", model: "teen_female", nation: "fontaine", release: "4.0" },
+  { icon: "/img/gi/char_icon/freminet.webp", name: "freminet", element: "cryo", weapon: "claymore", rarity: "4", model: "teen_male", nation: "fontaine", release: "4.0" },
 ]
 
 //Give gray background to cells = 0
@@ -103,16 +103,19 @@ function allCharacter_table_production() {
     let row = table.insertRow();
     row.classList.add("pattern-table-updates");
 
-    let nameCell = row.insertCell(0);
-    let rarityCell = row.insertCell(1);
-    let elementCell = row.insertCell(2);
-    let weaponCell = row.insertCell(3);
-    let modelCell = row.insertCell(4);
-    let nationCell = row.insertCell(5);
-    let releaseCell = row.insertCell(6);
+    let iconCell = row.insertCell(0);
+    let nameCell = row.insertCell(1);
+    let rarityCell = row.insertCell(2);
+    let elementCell = row.insertCell(3);
+    let weaponCell = row.insertCell(4);
+    let modelCell = row.insertCell(5);
+    let nationCell = row.insertCell(6);
+    let releaseCell = row.insertCell(7);
 
+    iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+    iconCell.classList.add("character_icon");
+    iconCell.classList.add("pattern-table-version");
     nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-    nameCell.classList.add("pattern-table-version");
     rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
     elementCell.innerHTML = characterListCapitalize(giArray[i].element);
     weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
@@ -131,22 +134,25 @@ function anemo_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -160,22 +166,25 @@ function cryo_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -189,22 +198,25 @@ function dendro_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -218,22 +230,25 @@ function electro_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -247,22 +262,25 @@ function geo_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -276,22 +294,25 @@ function hydro_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -305,22 +326,25 @@ function pyro_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -334,22 +358,25 @@ function adultFemale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -363,22 +390,25 @@ function adultMale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -392,22 +422,25 @@ function childFemale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -421,22 +454,25 @@ function teenFemale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -450,22 +486,25 @@ function teenMale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -479,22 +518,25 @@ function fontaine_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -508,22 +550,25 @@ function inazuma_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -537,22 +582,25 @@ function liyue_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -566,22 +614,25 @@ function mondstadt_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -595,22 +646,25 @@ function natlan_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -624,22 +678,25 @@ function snezhnaya_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -653,22 +710,25 @@ function sumeru_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -682,22 +742,25 @@ function four_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -711,22 +774,25 @@ function five_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -740,22 +806,25 @@ function bow_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -769,22 +838,25 @@ function catalyst_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -798,22 +870,25 @@ function claymore_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -827,22 +902,25 @@ function polearm_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
@@ -856,22 +934,25 @@ function sword_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let weaponCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let nationCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
-
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let starCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let weaponCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let nationCell = row.insertCell(6);
+      let patchCell = row.insertCell(7);
+  
+      iconCell.innerHTML = '<img src="' + giArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(giArray[i].name);
-      nameCell.classList.add("pattern-table-version");
-      rarityCell.innerHTML = characterListCapitalize(giArray[i].rarity);
+      starCell.innerHTML = characterListCapitalize(giArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(giArray[i].element);
       weaponCell.innerHTML = characterListCapitalize(giArray[i].weapon);
       modelCell.innerHTML = characterListCapitalize(giArray[i].model);
       nationCell.innerHTML = characterListCapitalize(giArray[i].nation);
-      releaseCell.innerHTML = characterListCapitalize(giArray[i].release);
+      patchCell.innerHTML = characterListCapitalize(giArray[i].release);
     }
   }
 }
