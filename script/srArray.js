@@ -1,37 +1,37 @@
 const srArray = [
-  { name: "trailblazer", path: "destruction", element: "physical", rarity: "5", model: "adult_female", faction: "nameless", release: "1.0"},
-  { name: "trailblazer", path: "preservation", element: "fire", rarity: "5", model: "adult_female", faction: "nameless", release: "1.0"},
-  { name: "himeko", path: "erudition", element: "fire", rarity: "5", model: "adult_female", faction: "nameless", release: "1.0" },
-  { name: "jing_yuan", path: "erudition", element: "lightning", rarity: "5", model: "adult_male", faction: "xianzhou", release: "1.0" },
-  { name: "qingque", path: "erudition", element: "quantum", rarity: "4", model: "short_female", faction: "xianzhou", release: "1.0" },
-  { name: "serval", path: "erudition", element: "lightning", rarity: "4", model: "adult_female", faction: "jarilo_VI", release: "1.0" },
-  { name: "herta", path: "erudition", element: "ice", rarity: "4", model: "short_female", faction: "herta_station", release: "1.0" },
-  { name: "sampo", path: "nihility", element: "wind", rarity: "4", model: "adult_male", faction: "jarilo_VI", release: "1.0" },
-  { name: "welt", path: "nihility", element: "imaginary", rarity: "5", model: "adult_male", faction: "nameless", release: "1.0" },
-  { name: "pela", path: "nihility", element: "ice", rarity: "4", model: "short_female", faction: "jarilo_VI", release: "1.0" },
-  { name: "bailu", path: "abundance", element: "lightning", rarity: "5", model: "child_female", faction: "xianzhou", release: "1.0" },
-  { name: "natasha", path: "abundance", element: "physical", rarity: "4", model: "adult_female", faction: "jarilo_VI", release: "1.0" },
-  { name: "gepard", path: "preservation", element: "ice", rarity: "5", model: "adult_male", faction: "jarilo_VI", release: "1.0" },
-  { name: "march_7th", path: "preservation", element: "ice", rarity: "4", model: "tall_female", faction: "nameless", release: "1.0" },
-  { name: "dan_heng", path: "hunt", element: "wind", rarity: "4", model: "tall_male", faction: "nameless", release: "1.0" },
-  { name: "seele", path: "hunt", element: "quantum", rarity: "5", model: "tall_female", faction: "jarilo_VI", release: "1.0" },
-  { name: "sushang", path: "hunt", element: "physical", rarity: "4", model: "tall_female", faction: "xianzhou", release: "1.0" },
-  { name: "yangqing", path: "hunt", element: "ice", rarity: "5", model: "short_male", faction: "xianzhou", release: "1.0" },
-  { name: "bronya", path: "harmony", element: "wind", rarity: "5", model: "adult_female", faction: "jarilo_VI", release: "1.0" },
-  { name: "tingyun", path: "harmony", element: "lightning", rarity: "4", model: "adult_female", faction: "xianzhou", release: "1.0" },
-  { name: "asta", path: "harmony", element: "fire", rarity: "4", model: "tall_female", faction: "herta_station", release: "1.0" },
-  { name: "arlan", path: "destruction", element: "lightning", rarity: "4", model: "short_male", faction: "herta_station", release: "1.0" },
-  { name: "clara", path: "destruction", element: "physical", rarity: "5", model: "short_female", faction: "jarilo_VI", release: "1.0" },
-  { name: "hook", path: "destruction", element: "fire", rarity: "4", model: "child_female", faction: "jarilo_VI", release: "1.0" },
-  { name: "silver_wolf", path: "nihility", element: "quantum", rarity: "5", model: "short_female", faction: "stellaron_hunters", release: "1.1"},
-  { name: "luocha", path: "abundance", element: "imaginary", rarity: "5", model: "adult_male", faction: "xianzhou", release: "1.1"},
-  { name: "yukong", path: "harmony", element: "imaginary", rarity: "4", model: "adult_female", faction: "xianzhou", release: "1.1"},
-  { name: "blade", path: "destruction", element: "wind", rarity: "5", model: "adult_male", faction: "stellaron_hunters", release: "1.2"},
-  { name: "kafka", path: "nihility", element: "lightning", rarity: "5", model: "adult_female", faction: "stellaron_hunters", release: "1.2"},
-  { name: "luka", path: "nihility", element: "physical", rarity: "4", model: "tall_male", faction: "jarilo_VI", release: "1.2"},
-  { name: "lynx", path: "abundance", element: "quantum", rarity: "4", model: "short_female", faction: "jarilo_VI", release: "1.3"},
-  { name: "dan_heng_~_imbibitor_lunae", path: "destruction", element: "imaginary", rarity: "5", model: "tall_male", faction: "nameless", release: "1.3"},
-  { name: "fu_xuan", path: "preservation", element: "quantum", rarity: "5", model: "short_female", faction: "xianzhou", release: "1.3"},
+  { icon: "/img/sr/char_icon/trailblazer_destruction.webp", name: "trailblazer", path: "destruction", element: "physical", rarity: "5", model: "adult_female", faction: "nameless", release: "1.0" },
+  { icon: "/img/sr/char_icon/trailblazer_preservation.webp", name: "trailblazer", path: "preservation", element: "fire", rarity: "5", model: "adult_female", faction: "nameless", release: "1.0" },
+  { icon: "/img/sr/char_icon/himeko-character_icon.webp", name: "himeko", path: "erudition", element: "fire", rarity: "5", model: "adult_female", faction: "nameless", release: "1.0" },
+  { icon: "/img/sr/char_icon/jing-yuan-character_icon.webp", name: "jing_yuan", path: "erudition", element: "lightning", rarity: "5", model: "adult_male", faction: "xianzhou", release: "1.0" },
+  { icon: "/img/sr/char_icon/qingque-character_icon.webp", name: "qingque", path: "erudition", element: "quantum", rarity: "4", model: "short_female", faction: "xianzhou", release: "1.0" },
+  { icon: "/img/sr/char_icon/serval-character_icon.webp", name: "serval", path: "erudition", element: "lightning", rarity: "4", model: "adult_female", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/herta-character_icon.webp", name: "herta", path: "erudition", element: "ice", rarity: "4", model: "short_female", faction: "herta_station", release: "1.0" },
+  { icon: "/img/sr/char_icon/sampo-character_icon.webp", name: "sampo", path: "nihility", element: "wind", rarity: "4", model: "adult_male", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/welt-character_icon.webp", name: "welt", path: "nihility", element: "imaginary", rarity: "5", model: "adult_male", faction: "nameless", release: "1.0" },
+  { icon: "/img/sr/char_icon/pela-character_icon.webp", name: "pela", path: "nihility", element: "ice", rarity: "4", model: "short_female", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/bailu-character_icon.webp", name: "bailu", path: "abundance", element: "lightning", rarity: "5", model: "child_female", faction: "xianzhou", release: "1.0" },
+  { icon: "/img/sr/char_icon/natasha-character_icon.webp", name: "natasha", path: "abundance", element: "physical", rarity: "4", model: "adult_female", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/gepard-character_icon.webp", name: "gepard", path: "preservation", element: "ice", rarity: "5", model: "adult_male", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/march-7th-character_icon.webp", name: "march_7th", path: "preservation", element: "ice", rarity: "4", model: "tall_female", faction: "nameless", release: "1.0" },
+  { icon: "/img/sr/char_icon/dan-heng-character_icon.webp", name: "dan_heng", path: "hunt", element: "wind", rarity: "4", model: "tall_male", faction: "nameless", release: "1.0" },
+  { icon: "/img/sr/char_icon/seele-character_icon.webp", name: "seele", path: "hunt", element: "quantum", rarity: "5", model: "tall_female", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/sushang-character_icon.webp", name: "sushang", path: "hunt", element: "physical", rarity: "4", model: "tall_female", faction: "xianzhou", release: "1.0" },
+  { icon: "/img/sr/char_icon/yanqing-character_icon.webp", name: "yanqing", path: "hunt", element: "ice", rarity: "5", model: "short_male", faction: "xianzhou", release: "1.0" },
+  { icon: "/img/sr/char_icon/bronya-character_icon.webp", name: "bronya", path: "harmony", element: "wind", rarity: "5", model: "adult_female", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/tingyun-character_icon.webp", name: "tingyun", path: "harmony", element: "lightning", rarity: "4", model: "adult_female", faction: "xianzhou", release: "1.0" },
+  { icon: "/img/sr/char_icon/asta-character_icon.webp", name: "asta", path: "harmony", element: "fire", rarity: "4", model: "tall_female", faction: "herta_station", release: "1.0" },
+  { icon: "/img/sr/char_icon/arlan-character_icon.webp", name: "arlan", path: "destruction", element: "lightning", rarity: "4", model: "short_male", faction: "herta_station", release: "1.0" },
+  { icon: "/img/sr/char_icon/clara-character_icon.webp", name: "clara", path: "destruction", element: "physical", rarity: "5", model: "short_female", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/hook-character_icon.webp", name: "hook", path: "destruction", element: "fire", rarity: "4", model: "child_female", faction: "jarilo_VI", release: "1.0" },
+  { icon: "/img/sr/char_icon/silver_wolf.webp", name: "silver_wolf", path: "nihility", element: "quantum", rarity: "5", model: "short_female", faction: "stellaron_hunters", release: "1.1" },
+  { icon: "/img/sr/char_icon/luocha.webp", name: "luocha", path: "abundance", element: "imaginary", rarity: "5", model: "adult_male", faction: "xianzhou", release: "1.1" },
+  { icon: "/img/sr/char_icon/yukong.webp", name: "yukong", path: "harmony", element: "imaginary", rarity: "4", model: "adult_female", faction: "xianzhou", release: "1.1" },
+  { icon: "/img/sr/char_icon/blade.webp", name: "blade", path: "destruction", element: "wind", rarity: "5", model: "adult_male", faction: "stellaron_hunters", release: "1.2" },
+  { icon: "/img/sr/char_icon/kafka.webp", name: "kafka", path: "nihility", element: "lightning", rarity: "5", model: "adult_female", faction: "stellaron_hunters", release: "1.2" },
+  { icon: "/img/sr/char_icon/luka-character_icon.webp", name: "luka", path: "nihility", element: "physical", rarity: "4", model: "tall_male", faction: "jarilo_VI", release: "1.2" },
+  { icon: "/img/sr/char_icon/lynx-character_icon.webp", name: "lynx", path: "abundance", element: "quantum", rarity: "4", model: "short_female", faction: "jarilo_VI", release: "1.3" },
+  { icon: "/img/sr/char_icon/danheng_il.webp", name: "dan_heng_~_imbibitor_lunae", path: "destruction", element: "imaginary", rarity: "5", model: "tall_male", faction: "nameless", release: "1.3" },
+  { icon: "/img/sr/char_icon/fu-xuan-character_icon.webp", name: "fu_xuan", path: "preservation", element: "quantum", rarity: "5", model: "short_female", faction: "xianzhou", release: "1.3" },
 ];
 
 //Give gray background to cells = 0
@@ -67,16 +67,19 @@ function allCharacter_table_production() {
     let row = table.insertRow();
     row.classList.add("pattern-table-updates");
 
-    let nameCell = row.insertCell(0);
-    let rarityCell = row.insertCell(1);
-    let elementCell = row.insertCell(2);
-    let pathCell = row.insertCell(3);
-    let modelCell = row.insertCell(4);
-    let factionCell = row.insertCell(5);
-    let releaseCell = row.insertCell(6);
+    let iconCell = row.insertCell(0);
+    let nameCell = row.insertCell(1);
+    let rarityCell = row.insertCell(2);
+    let elementCell = row.insertCell(3);
+    let pathCell = row.insertCell(4);
+    let modelCell = row.insertCell(5);
+    let factionCell = row.insertCell(6);
+    let releaseCell = row.insertCell(7);
 
+    iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+    iconCell.classList.add("character_icon");
+    iconCell.classList.add("pattern-table-version");
     nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-    nameCell.classList.add("pattern-table-version");
     rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
     elementCell.innerHTML = characterListCapitalize(srArray[i].element);
     pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -95,16 +98,19 @@ function fire_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -124,16 +130,19 @@ function ice_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -153,16 +162,19 @@ function imaginary_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -182,16 +194,19 @@ function lightning_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -211,16 +226,19 @@ function physical_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -240,16 +258,19 @@ function quantum_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -269,16 +290,19 @@ function wind_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -298,16 +322,19 @@ function adultFemale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -327,16 +354,19 @@ function adultMale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -356,16 +386,19 @@ function childFemale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -385,16 +418,19 @@ function shortFemale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -414,16 +450,19 @@ function shortMale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -443,16 +482,19 @@ function tallFemale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -472,16 +514,19 @@ function tallMale_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -501,16 +546,19 @@ function herta_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -530,16 +578,19 @@ function jarilo_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -559,16 +610,19 @@ function nameless_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -588,16 +642,19 @@ function stellaron_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -617,16 +674,19 @@ function xianzhou_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -646,16 +706,19 @@ function four_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -675,16 +738,19 @@ function five_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -704,16 +770,19 @@ function abundance_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -733,16 +802,19 @@ function destruction_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -762,16 +834,19 @@ function erudition_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -791,16 +866,19 @@ function harmony_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -820,16 +898,19 @@ function hunt_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -849,16 +930,19 @@ function nihility_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);
@@ -878,16 +962,19 @@ function preservation_table_production() {
       let row = table.insertRow();
       row.classList.add("pattern-table-updates");
 
-      let nameCell = row.insertCell(0);
-      let rarityCell = row.insertCell(1);
-      let elementCell = row.insertCell(2);
-      let pathCell = row.insertCell(3);
-      let modelCell = row.insertCell(4);
-      let factionCell = row.insertCell(5);
-      let releaseCell = row.insertCell(6);
+      let iconCell = row.insertCell(0);
+      let nameCell = row.insertCell(1);
+      let rarityCell = row.insertCell(2);
+      let elementCell = row.insertCell(3);
+      let pathCell = row.insertCell(4);
+      let modelCell = row.insertCell(5);
+      let factionCell = row.insertCell(6);
+      let releaseCell = row.insertCell(7);
 
+      iconCell.innerHTML = '<img src="' + srArray[i].icon + '">';
+      iconCell.classList.add("character_icon");
+      iconCell.classList.add("pattern-table-version");
       nameCell.innerHTML = characterListCapitalize(srArray[i].name);
-      nameCell.classList.add("pattern-table-version");
       rarityCell.innerHTML = characterListCapitalize(srArray[i].rarity);
       elementCell.innerHTML = characterListCapitalize(srArray[i].element);
       pathCell.innerHTML = characterListCapitalize(srArray[i].path);

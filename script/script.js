@@ -19,6 +19,14 @@ function tocDropdown() {
   } else {
     document.getElementById("toc-dropdown").classList.add("show");
   }
+
+  if (document.getElementById("header_grid_change").classList.contains("content-header-pattern")) {
+    document.getElementById("header_grid_change").classList.remove("content-header-pattern");
+    document.getElementById("header_grid_change").classList.add("content-header-pattern_grid_change");
+  } else {
+    document.getElementById("header_grid_change").classList.remove("content-header-pattern_grid_change");
+    document.getElementById("header_grid_change").classList.add("content-header-pattern");
+  }
 }
 
 
@@ -55,38 +63,36 @@ function sidenavDropdown(element) {
 
 //RELEASE SCHDULE TO LOCAL TIME
 function localTime() {
-// get the user's time zone offset in minutes
-const timeZoneOffset = new Date().getTimezoneOffset();
+  // get the user's time zone offset in minutes
+  const timeZoneOffset = new Date().getTimezoneOffset();
 
-// get all the elements in the date and time column of the table
-const dateAndTimeElements = document.querySelectorAll('.date-and-time-column');
+  // get all the elements in the date and time column of the table
+  const dateAndTimeElements = document.querySelectorAll('.date-and-time-column');
 
-// loop through the elements and convert each value to local time
-dateAndTimeElements.forEach(element => {
-  // get the UTC timestamp of the date and time value
-  const utcTimestamp = new Date(element.textContent.trim()).getTime();
+  // loop through the elements and convert each value to local time
+  dateAndTimeElements.forEach(element => {
+    // get the UTC timestamp of the date and time value
+    const utcTimestamp = new Date(element.textContent.trim()).getTime();
 
-  // convert the UTC timestamp to the local timestamp
-  const localTimestamp = utcTimestamp - (timeZoneOffset * 60 * 1000);
+    // convert the UTC timestamp to the local timestamp
+    const localTimestamp = utcTimestamp - (timeZoneOffset * 60 * 1000);
 
-  // create a new Date object with the local timestamp
-  const localDate = new Date(localTimestamp);
+    // create a new Date object with the local timestamp
+    const localDate = new Date(localTimestamp);
 
-  // format the local date and time as strings in the desired formats
-  const localDateString = localDate.toLocaleString(undefined, {
-    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-    month: 'numeric',
-    day: 'numeric'
-  }).replace(',', '');
+    // format the local date and time as strings in the desired formats
+    const localDateString = localDate.toLocaleString(undefined, {
+      timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      month: 'numeric',
+      day: 'numeric'
+    }).replace(',', '');
 
-  const localTimeString = localDate.toLocaleString(undefined, {
-    hour: 'numeric',
-    hour12: true
-  }).toLowerCase().replace(' ', '');
+    const localTimeString = localDate.toLocaleString(undefined, {
+      hour: 'numeric',
+      hour12: true
+    }).toLowerCase().replace(' ', '');
 
-  // set the HTML content of the element to the local date and time strings
-  element.innerHTML = `${localDateString}<br>${localTimeString}`;
-});
-
-
+    // set the HTML content of the element to the local date and time strings
+    element.innerHTML = `${localDateString}`;
+  });
 }

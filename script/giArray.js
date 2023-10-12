@@ -53,7 +53,7 @@ const giArray = [
   { icon: "/img/gi/char_icon/collei.webp", name: "collei", element: "dendro", weapon: "bow", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.0" },
   { icon: "/img/gi/char_icon/nilou.webp", name: "nilou", element: "hydro", weapon: "sword", rarity: "5", model: "teen_female", nation: "sumeru", release: "3.1" },
   { icon: "/img/gi/char_icon/cyno.webp", name: "cyno", element: "electro", weapon: "polearm", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.1" },
-  { icon: "/img/gi/char_icon/cadace.webp", name: "cadace", element: "hydro", weapon: "polearm", rarity: "4", model: "adult_female", nation: "sumeru", release: "3.1" },
+  { icon: "/img/gi/char_icon/candace.webp", name: "candace", element: "hydro", weapon: "polearm", rarity: "4", model: "adult_female", nation: "sumeru", release: "3.1" },
   { icon: "/img/gi/char_icon/nahida.webp", name: "nahida", element: "dendro", weapon: "catalyst", rarity: "5", model: "child_female", nation: "sumeru", release: "3.2" },
   { icon: "/img/gi/char_icon/layla.webp", name: "layla", element: "cryo", weapon: "sword", rarity: "4", model: "teen_female", nation: "sumeru", release: "3.2" },
   { icon: "/img/gi/char_icon/wanderer.webp", name: "wanderer", element: "anemo", weapon: "catalyst", rarity: "5", model: "teen_male", nation: "sumeru", release: "3.3" },
@@ -68,6 +68,8 @@ const giArray = [
   { icon: "/img/gi/char_icon/lyney.webp", name: "lyney", element: "pyro", weapon: "bow", rarity: "5", model: "teen_male", nation: "fontaine", release: "4.0" },
   { icon: "/img/gi/char_icon/lynette.webp", name: "lynette", element: "anemo", weapon: "sword", rarity: "4", model: "teen_female", nation: "fontaine", release: "4.0" },
   { icon: "/img/gi/char_icon/freminet.webp", name: "freminet", element: "cryo", weapon: "claymore", rarity: "4", model: "teen_male", nation: "fontaine", release: "4.0" },
+  { icon: "/img/gi/char_icon/neuvillette.webp", name: "neuvillette", element: "hydro", weapon: "catalyst", rarity: "5", model: "adult_male", nation: "fontaine", release: "4.1" },
+  { icon: "/img/gi/char_icon/wriothesley.webp", name: "wriothesley", element: "cryo", weapon: "catalyst", rarity: "5", model: "adult_male", nation: "fontaine", release: "4.1" },
 ]
 
 //Give gray background to cells = 0
