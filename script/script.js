@@ -1,7 +1,29 @@
-//WRITE SOCIALIZER.JS INTO HEAD
-let script = document.createElement('script');
-script.src = '/script/socializer.js';
-document.getElementsByTagName('head')[0].appendChild(script);
+//WRITES REPEATING HEAD SECTION SHEETS
+// Tab & Link Icon
+let faviconLink = document.createElement('link');
+faviconLink.rel = 'icon';
+faviconLink.href = '/img/logo/hb_logo_short.png';
+document.getElementsByTagName('head')[0].appendChild(faviconLink);
+
+//socializer.js file
+let includeSocializerScript = document.createElement('script');
+includeSocializerScript.src = '/script/socializer.js';
+document.getElementsByTagName('head')[0].appendChild(includeSocializerScript);
+
+// AdSense Script
+let includeAdSenseScript = document.createElement('script');
+includeAdSenseScript.async = true;
+includeAdSenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9087692206614198";
+includeAdSenseScript.setAttribute("crossorigin", "anonymous");
+document.getElementsByTagName('head')[0].appendChild(includeAdSenseScript);
+
+// AdSense Meta
+let includeAdSenseMeta = document.createElement('meta');
+includeAdSenseMeta.name = "google-adsense-account";
+includeAdSenseMeta.content = "ca-pub-9087692206614198";
+document.getElementsByTagName('head')[0].appendChild(includeAdSenseMeta);
+
+
 
 
 //SOCIAL MEDIA SHARE LOAD
