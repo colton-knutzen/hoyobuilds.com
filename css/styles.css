@@ -859,6 +859,10 @@ main {
   border: 1px black solid;
   padding: 0px;
 }
+.pattern-table-icon img {
+  max-width: 74px;
+  max-height: 74px;
+}
 .pattern-table-icon .pattern-table-label {
   border: 2px black solid;
   background-color: #7DB577;

@@ -999,6 +999,11 @@ body {
             padding: 0px;
         }
 
+        img {
+            max-width: 74px;
+            max-height: 74px;
+        }
+
         .pattern-table-label {
             border: 2px black solid;
             background-color:#7DB577;

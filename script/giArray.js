@@ -70,6 +70,8 @@ const giArray = [
   { icon: "/img/gi/char_icon/freminet.webp", name: "freminet", element: "cryo", weapon: "claymore", rarity: "4", model: "teen_male", nation: "fontaine", release: "4.0" },
   { icon: "/img/gi/char_icon/neuvillette.webp", name: "neuvillette", element: "hydro", weapon: "catalyst", rarity: "5", model: "adult_male", nation: "fontaine", release: "4.1" },
   { icon: "/img/gi/char_icon/wriothesley.webp", name: "wriothesley", element: "cryo", weapon: "catalyst", rarity: "5", model: "adult_male", nation: "fontaine", release: "4.1" },
+  { icon: "/img/gi/char_icon/charlotte.webp", name: "charlotte", element: "cryo", weapon: "catalyst", rarity: "4", model: "teen_female", nation: "fontaine", release: "4.2" },
+  { icon: "/img/gi/char_icon/furina.webp", name: "furina", element: "hydro", weapon: "sword", rarity: "5", model: "teen_female", nation: "fontaine", release: "4.2" },
 ]
 
 //Give gray background to cells = 0
